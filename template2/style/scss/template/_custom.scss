@@ -1,0 +1,42 @@
+.clients_wrapper {
+	div {
+		img {
+			filter: grayscale(1);
+			@include transition();
+			transform: scale(0.8);
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			img {
+				filter: grayscale(0);
+				transform: scale(1);
+				@include transition();
+			}
+		}
+	}
+}
+
+.services_intro_wrapper {
+	background-attachment: fixed;
+	background-position: center;
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.inner {
+		background-color: rgba(98, 161, 49, .7);
+	}
+}
+
+.our_services_wrapper {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.inner {
+		background-color: rgba(0, 0, 0, .7);
+	}
+}

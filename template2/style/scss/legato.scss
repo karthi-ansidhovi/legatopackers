@@ -1,0 +1,61 @@
+@import "template/bootstrap_overrides";
+/*!
+ * Bootstrap v4.1.3
+ */
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+
+/*!
+ *  Font Awesome 4.7.0
+ */
+
+@import "font_awesome/variables";
+@import "font_awesome/mixins";
+@import "font_awesome/path";
+@import "font_awesome/core";
+@import "font_awesome/larger";
+@import "font_awesome/fixed-width";
+@import "font_awesome/list";
+@import "font_awesome/bordered-pulled";
+@import "font_awesome/animated";
+@import "font_awesome/rotated-flipped";
+@import "font_awesome/stacked";
+@import "font_awesome/icons";
+@import "font_awesome/screen-reader";
+
+
+@import "template/custom";
