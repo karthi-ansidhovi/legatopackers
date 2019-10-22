@@ -1,0 +1,11 @@
+.just_intro_bg {
+	background-size: 120%;
+	height: 50vh;
+	background-position: center;
+	@include transition();
+
+	&:hover {
+		background-size: 150%;
+		@include transition();
+	}
+}

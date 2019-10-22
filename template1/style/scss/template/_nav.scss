@@ -1,0 +1,34 @@
+#main_nav {
+	z-index: 9;
+
+	ul {
+		li {
+			a {
+				@extend .text-white-50;
+
+				div {
+					left: -500px;
+					z-index: 8;
+					top: 0;
+					background-color: $thm;
+					min-width: 110px;
+					padding: .5rem 1rem;
+					@include transition();
+				}
+			}
+
+			&:hover,
+			&:focus,
+			&:active {
+				a {
+					@extend .text-white;
+
+					div {
+						left: 50px;
+						@include transition();
+					}
+				}
+			}
+		}
+	}
+}
